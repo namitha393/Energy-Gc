@@ -11,11 +11,11 @@ We have used C++ for the same.Demonstration mode is through the command line int
 
 We have defined classes for block and blockchain and a struct for the transaction data.
 Block:
-Each block will have a hash of its own and its previous hash
+Each block will have a hash of its own and its previous hash;
 Blockchain:
-addBlock() function will add a newly created block to the chain.
+addBlock() function will add a newly created block to the chain;
 TransactionData:
-This is storing the information of transactions.
+This is storing the information of transactions;
 There is a function isChainValid() which checks if the blockchain is valid after each transaction.
 We have diffentiated the users based on the input they give in the command line and their data will be visible to them and the parties who have agreed to share information.(confidentiality)
 To prove the privacy,we have added a variable data: which when added or updated will only be visible to the parties who have agreed to share information.
